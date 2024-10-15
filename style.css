@@ -12,7 +12,7 @@
 
 
 :root {
-    --bg-color: #021341;
+    --bg-color: #075080;
     --second-bg-color: #112e42;
     --text-color: #ededed;
     --main-color: #3FA796;
@@ -241,26 +241,28 @@ section {
 .home-img{
     position: absolute;
     width: 100vw;
-    height: 100vh;
-    left: 1100px;
+    height: 90vh;
+    left: 930px;
     top: 0;
-    bottom: 500vh;
+
     display: flex;
+    margin-top: 5%;
+
 }
 .home-imgHover{
     position: absolute;
     top: 0;
     right: 0;
     height: 100%;
-    width: 45%;
-    background: transparent;
+    width: 50%;
+    /* background: transparent; */
     /*border: 2px solid red;*/
-    transition: 3s;
+    /* transition: 3s; */
 }
-.home-imgHover:hover{
+/* .home-imgHover:hover{
     background: var(--bg-color);
     opacity: 0.5;
-}
+} */
 
 .about{
     display: flex;
@@ -282,8 +284,8 @@ span {
 .about-img{
     position: relative;
     width: 25rem;
-    height: 25rem;
-    border-radius: 50%;
+    height: 34rem;
+    border-radius: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
